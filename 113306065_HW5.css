@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  height: 100vh;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 330px 540px;
+  background-color: #fff;
+  width: 900px;
+  height: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.left-panel {
+  background-color: #2c2c2c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-panel {
+  height: 50%;
+  background-image: url('cat.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.text-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.nccu-icon {
+  width: 100px;
+  align-self: center;
+}
+.right-panel {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ccc;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.timeline-item .year {
+  font-weight: bold;
+  width: 120px;
+}
+
+.timeline-item .description {
+  flex: 1;
+}
+
+.homework-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.homework-list li {
+  margin-bottom: 10px;
+}
+
+.homework-list a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.homework-list a:hover {
+  text-decoration: underline;
+}
+
+.music-list {
+  display: flex;
+  gap: 10px;
+}
+
+.music-list img {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.note {
+  font-size: 12px;
+  color: #555;
+  margin-top: 10px;
+}
